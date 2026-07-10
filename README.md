@@ -1,12 +1,8 @@
 ##### Workflow
-raw.tif 
-	-> nsLocalNormContrast.py
-normed.tif
-	-> nsCount.ilastick project
-probability.h5
-	-> nsProbality_batch.py
-  -> nsDrawEdge.py
-quantification data
+1. raw.tif 			-> nsLocalNormContrast.py
+2. normed.tif		-> nsCount.ilastick project
+3. probability.h5	-> nsProbality_batch.py			->  nsDrawEdge.py
+4. quantification data
 
 ##### Note: 
 1. Exemples are compressed for uploading.
